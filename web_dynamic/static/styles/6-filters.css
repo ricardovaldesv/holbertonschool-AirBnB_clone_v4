@@ -49,6 +49,13 @@ button:hover {
 .amenities {
     height: 100%;
     width: 25%;
+    
+}
+
+.amenities h4 {
+    white-space: nowrap; /* Evita el salto de línea */
+    text-overflow: ellipsis; /* Muestra puntos suspensivos (...) para indicar que el texto se ha truncado */
+    max-width: 100%; /* Limita el ancho del texto al ancho del contenedor */
 }
 
 .popover {
@@ -101,3 +108,8 @@ button:hover {
 .locations:hover .popover {
     visibility: visible;
 }
+
+.amenity-checkbox {
+    position: relative;
+    left: -10px;
+  }
