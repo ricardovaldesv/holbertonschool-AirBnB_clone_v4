@@ -7,6 +7,7 @@ $(document).ready(function() {
       if ($(this).is(':checked')) {
           amenitiesChecked.add(amenityId);
       } else {
+        
           amenitiesChecked.delete(amenityId);
       }
       console.log(amenitiesChecked);
